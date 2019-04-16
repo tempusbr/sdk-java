@@ -1,6 +1,6 @@
 # SDK Samples for TempusBR IoT
 
-# Import SDK into application
+## Import SDK into application
 To import SDK into application we use Tempus specific Maven repo. To have the repository, add these lines to your pom.xml file.
 ```
 <repositories>
