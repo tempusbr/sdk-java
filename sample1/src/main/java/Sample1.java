@@ -25,6 +25,7 @@ public class Sample1 {
             throw e;
         }
         finally {
+            System.out.println("Done.");
             connector.flush();
             connector.close();
         }
