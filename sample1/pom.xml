@@ -12,7 +12,7 @@
     <repositories>
         <repository>
             <id>Tempus-maven-repo</id>
-            <url>https://storage.googleapis.com/tempusmaven/release/tempus/</url>
+            <url>https://storage.googleapis.com/tempusmaven/release/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
