@@ -16,7 +16,8 @@ public class Sample1 {
             }
         }
         catch (InvalidKeyException e) {
-            throw e;
+            System.err.println("INVALID_KEY_Exception: Please make sure to use correct API_KEY in the code.");
+            return;
         }
         catch (InitializationException e) {
             throw e;
@@ -25,9 +26,9 @@ public class Sample1 {
             throw e;
         }
         finally {
-            System.out.println("Done.");
             connector.flush();
             connector.close();
         }
+        System.out.println("Done.");
     }
 }
